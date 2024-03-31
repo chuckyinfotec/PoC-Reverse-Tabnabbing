@@ -1,6 +1,6 @@
-#Esta é uma PoC simples da vulneravilidade de Reverse Tabnabbing
+# Esta é uma PoC simples da vulneravilidade de Reverse Tabnabbing
 
-##Sobre a vulnerabiliade
+## Sobre a vulnerabiliade
 O Reverse Tabnabbing é uma técnica maliciosa na qual uma página da web maliciosa, aberta em uma aba, explora a confiança dos usuários em links de confiança abertos em novas abas. Aqui está como funciona:
 
 1. Um usuário abre uma página da web confiável (como um serviço de email, rede social, etc.) em uma aba do navegador.
